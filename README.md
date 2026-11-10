@@ -4,7 +4,7 @@
 
 # Structify
 
-### Paste a folder tree. Get a real project. No cap. ✨
+### Paste a folder tree. Get a real project. No cap. 
 
 Turn ASCII folder trees from ChatGPT, docs, or READMEs into actual files and folders, in one click.
 
@@ -39,34 +39,34 @@ You ask an AI for a project structure. It gives you this:
 
 Now you get to right-click → New File → type the name → repeat 40 times. Not it.
 
-## ⚡ The fix
+##  The fix
 
 Paste the tree into Structify, check the live preview, hit **Create files**. Done. Go touch grass.
 
-## 🔥 Features
+##  Features
 
 | | |
 |---|---|
-| 📋 **Paste panel** | A proper text box to drop your tree into. No clipboard guessing. |
-| 👀 **Live preview** | See exactly what will be created before anything touches your disk. |
-| 💾 **Saved templates** | Save your favourite structures and reuse them on every new project. |
-| 🧰 **Built-in boilerplates** | Node + TypeScript and pnpm monorepo, ready to go. |
-| 🖱️ **Right-click anywhere** | Right-click any folder in the Explorer and generate inside it. |
-| ⚡ **Clipboard mode** | Copy a tree, run one command, files appear. |
-| 🧠 **Smart parsing** | Handles `├──`, `└──`, `│`, plain ASCII (`|--`, `+--`), 2 or 4 space indents, and trailing comments like `# entry point`. |
-| 🛡️ **Safe by default** | Never overwrites existing files and never writes outside your target folder. |
+|  **Paste panel** | A proper text box to drop your tree into. No clipboard guessing. |
+|  **Live preview** | See exactly what will be created before anything touches your disk. |
+|  **Saved templates** | Save your favourite structures and reuse them on every new project. |
+|  **Built-in boilerplates** | Node + TypeScript and pnpm monorepo, ready to go. |
+|  **Right-click anywhere** | Right-click any folder in the Explorer and generate inside it. |
+|  **Clipboard mode** | Copy a tree, run one command, files appear. |
+|  **Smart parsing** | Handles `├──`, `└──`, `│`, plain ASCII (`|--`, `+--`), 2 or 4 space indents, and trailing comments like `# entry point`. |
+|  **Safe by default** | Never overwrites existing files and never writes outside your target folder. |
 
-## 📸 See it in action
+##  See it in action
 
 <div align="center">
 
 | Paste your tree | Preview it | Boom, files |
 |:---:|:---:|:---:|
-| ![Paste](images/step-1-paste.png) | ![Preview](images/step-2-preview.png) | ![Result](images/step-3-result.png) |
+| ![Paste](images/tree.png) | ![Preview](images/preview.png) | ![Result](images/result.png) |
 
 </div>
 
-## 🚀 Getting started
+##  Getting started
 
 ### Install
 
@@ -91,21 +91,21 @@ code --install-extension your-publisher-id.structify
 
 Prefer the Explorer? Right-click any folder and choose **Structify: Open Panel**. Files get created inside that folder.
 
-## 🎮 Commands
+##  Commands
 
 | Command | What it does |
 |---|---|
 | `Structify: Open Panel` | Opens the paste box with preview and templates |
 | `Structify: Generate from Clipboard` | Builds the structure from whatever is on your clipboard |
 
-## 💡 Pro tips
+##  Pro tips
 
 - **Add a trailing `/` to folders**, like `docs/`. A name with no children and no slash is treated as a file, so an empty folder needs the slash.
 - **Comments are ignored.** `main.ts  # app entry` creates just `main.ts`.
 - **Save your stack once.** Set up your go-to structure as a template and never type it again.
 - **Existing files are skipped**, so running Structify twice is safe.
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Copy an existing folder as an ASCII tree (the reverse of Structify)
 - [ ] Starter content for files in templates
@@ -114,7 +114,7 @@ Prefer the Explorer? Right-click any folder and choose **Structify: Open Panel**
 
 Got an idea? [Open an issue](https://github.com/you/structify/issues). Good ideas get built.
 
-## 🛠️ Contributing
+##  Contributing
 
 ```bash
 git clone https://github.com/you/structify.git
@@ -125,7 +125,7 @@ npm run watch
 
 Then press **F5** in VS Code to launch the Extension Development Host. PRs are welcome.
 
-## 📄 License
+##  License
 
 [MIT](LICENSE). Use it, remix it, ship it.
 
