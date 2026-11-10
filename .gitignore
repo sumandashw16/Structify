@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+out/
+
+# VS Code test downloads
+.vscode-test/
+
+# Packaged extension files
+*.vsix
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets (never commit your marketplace token)
+.env
+.env.*

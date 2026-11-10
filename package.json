@@ -1,0 +1,33 @@
+{
+  "name": "structify",
+  "displayName": "Structify",
+  "description": "Convert ASCII folder trees from ChatGPT or documentation directly into a real workspace structure.",
+  "version": "0.0.1",
+  "publisher": "your-publisher-id",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/you/structify" },
+  "engines": {
+    "vscode": "^1.145.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      { "command": "structify.openPanel", "title": "Structify: Open Panel" },
+      { "command": "structify.fromClipboard", "title": "Structify: Generate from Clipboard" }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "when": "explorerResourceIsFolder",
+          "command": "structify.openPanel",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": { "...": "keep your scripts as they are" },
+  "devDependencies": { "...": "keep as they are" },
+  "overrides": { "...": "keep as they are" }
+}
