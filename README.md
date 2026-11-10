@@ -133,7 +133,7 @@ Then press **F5** in VS Code to launch the Extension Development Host. PRs are w
 
 <div align="center">
 
-**Made with ☕ and too many `mkdir` commands.**
+**Made with and too many `mkdir` commands.**
 
 If Structify saved you time, drop a ⭐ on the repo and leave a review on the Marketplace. It helps a lot.
 
