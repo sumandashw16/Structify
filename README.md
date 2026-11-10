@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/icon.png" alt="Structify logo" width="120" />
+<img src="images/logo.png" alt="Structify logo" width="120" />
 
 # Structify
 
